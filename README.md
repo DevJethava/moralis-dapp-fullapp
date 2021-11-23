@@ -1,4 +1,4 @@
-# `ethereum-react-native-boilerplate`
+# `Ethereum react-native boilerplate with Show tranjections, transfer eth and Logout `
 
 > React Native components and hooks for fast building dApps without running own backend
 
