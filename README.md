@@ -2,6 +2,7 @@
 
 > React Native components and hooks for fast building dApps without running own backend
 
+- credit goes to [https://github.com/ethereum-boilerplate/ethereum-react-native-boilerplate]
 This project is using:
 
 - [create-react-native-dapp](cawfree/create-react-native-dapp) to bootstrap the project.
