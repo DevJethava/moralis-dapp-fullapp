@@ -1,9 +1,10 @@
-# `ethereum-react-native-boilerplate`
+# `Ethereum react-native boilerplate with Show tranjections, transfer eth and Logout `
 
 > React Native components and hooks for fast building dApps without running own backend
 
-This project is using:
+- credit goes to [https://github.com/ethereum-boilerplate/ethereum-react-native-boilerplate].
 
+This project is using:
 - [create-react-native-dapp](cawfree/create-react-native-dapp) to bootstrap the project.
 - [WalletConnect v1 react-native integration](https://docs.walletconnect.com/1.0/quick-start/dapps/react-native) for authenthication (we use a slightly modiefied version, located in `./src/WalletConnect` to allow to modify the `enable` function of Moralis).
 - [react-moralis](https://github.com/MoralisWeb3/react-moralis) for react hooks
