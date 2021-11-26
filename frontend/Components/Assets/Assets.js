@@ -31,7 +31,8 @@ export default function Assets() {
             Ethereum
           </Text>
           <NativeBalance chain="0x1" />
-          <ERC20Balance></ERC20Balance>
+          {/* <NativeBalance chain="ropsten" /> */}
+          <ERC20Balance chain="ropsten"></ERC20Balance>
           <Text style={styles.chainText} category="c2">
             Binance Smart Chain
           </Text>

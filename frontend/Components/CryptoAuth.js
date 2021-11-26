@@ -1,16 +1,13 @@
 import React, { useState, createRef, useRef, useEffect } from "react";
 import {
   StyleSheet,
-  TextInput,
   View,
   Text,
   ScrollView,
   Image,
-  Keyboard,
   TouchableOpacity,
   KeyboardAvoidingView,
   Linking,
-  Animated,
   Dimensions,
   AppState,
 } from "react-native";
@@ -25,13 +22,10 @@ import {
 
 import {
   useMoralis,
-  useMoralisWeb3Api,
-  useMoralisWeb3ApiCall,
 } from "react-moralis";
 import { useWalletConnect } from "../WalletConnect";
 import LottieView from "lottie-react-native";
 
-import AsyncStorage from "@react-native-async-storage/async-storage";
 import Animation from "../splashLottie.json";
 
 // import Loader from './Components/Loader';

@@ -1,17 +1,12 @@
 import React from "react";
 import {
   StyleSheet,
-  TextInput,
   StatusBar,
   View,
-  Text,
-  ScrollView,
   Button,
 } from "react-native";
 import {
   useMoralis,
-  useMoralisWeb3Api,
-  useMoralisWeb3ApiCall,
 } from "react-moralis";
 
 const Profile = ({ navigation }) => {
